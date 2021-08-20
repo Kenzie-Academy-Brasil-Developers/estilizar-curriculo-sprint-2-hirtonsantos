@@ -1,27 +1,91 @@
+html, body {
+	background-color: #f3f3f3;
+}
+
 .clear {
 	clear: both;
 }
 
-#headshot {
+figure#headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin: 100px 0px 0px 200px;
 }
 
-#name {
+figure#headshot img {
+    width: 70%;
+    height: 100%;
+	border-radius: 60%;
+}
+
+hr {
+	width: 80%;
+	color: #cf8a05;
+	border: 1px solid;
+}
+
+hr.a{
+	width: 73%;
+	color: #dedede;
+	border: 1px solid;
+}
+
+h2 {
+	margin-left: 100px;
+}
+
+h2#a {
+	margin-left: 0px;
+}
+
+.name {
 	float: left;
+	margin: 100px 0px 0px 0px;
+	line-height: 10px;
+	font-size: 20px;
 }
 
 #contactDetails {
 	float: right;
+	margin-top: 100px;
+	margin-right: 200px;
+	color: #181818;
+}
+
+ul.demo {
+	list-style-type: none;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	font-size: auto;
+	color: #cf8a05;
+	margin-left: 158px;
+	font-family: 'Rokkitt', serif;
+}
+
+.sectionTitle h1 {
+	margin-left: 12px;
+}
+
+
+p {
+	width: 65%;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.keySkills {
+	padding-left: 100px;
+	width: max-content;
+	display: inline;
+	list-style-type: none;
+	float: right;
+	margin-right: 750px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
 }
+
