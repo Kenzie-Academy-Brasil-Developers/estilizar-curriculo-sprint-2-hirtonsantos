@@ -1,5 +1,8 @@
 html, body {
 	background-color: #f3f3f3;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	display: inline-block;
 }
 
 .clear {
@@ -21,7 +24,7 @@ figure#headshot img {
 hr {
 	width: 80%;
 	color: #cf8a05;
-	border: 1px solid;
+	border: 2px solid;
 }
 
 hr.a{
@@ -32,10 +35,13 @@ hr.a{
 
 h2 {
 	margin-left: 100px;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h2#a {
 	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .name {
@@ -43,6 +49,7 @@ h2#a {
 	margin: 100px 0px 0px 0px;
 	line-height: 10px;
 	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #contactDetails {
